@@ -1,0 +1,135 @@
+/* Algemene opmaak */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: rgb(204, 206, 205); /* Zelfde kleur als het logo */
+  color: #fff; /* Witte tekstkleur */
+}
+
+
+/* Navigatiebalk */
+#navigatie {
+  background-color: #333; /* Donkergrijze achtergrond */
+  overflow: hidden;
+  padding: 10px 0;
+  text-align: center;
+}
+
+#navigatie a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: inline-block;
+}
+
+#navigatie a:hover,
+#navigatie a.active {
+  background-color: #666; /* Grijze achtergrond bij hover of actieve link */
+}
+
+/* Titel */
+.titel {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Container met blokken */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+}
+
+.blok {
+  background-color: #222; /* Iets lichtere achtergrond voor de blokken */
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.afbeelding img {
+  width: 100%;  /* Zorgt ervoor dat de afbeelding de breedte van de container vult */
+  height: auto; /* Houdt de verhoudingen van de afbeelding intact */
+  border-radius: 8px; /* Optioneel: afgeronde hoeken */
+}
+
+
+.logo {
+  width: 100px; /* Pas de breedte aan zoals gewenst */
+  height: auto; /* Houd de verhoudingen correct */
+}
+
+.anderen {
+  background-color: #222; /* Iets lichtere achtergrond voor de blokken */
+  padding: 20px;
+  margin: 10px;
+  width: 420px;
+  height: 80px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.titel2 {
+  background-color: #222; /* Iets lichtere achtergrond voor de blokken */
+  padding: 20px;
+  margin: 10px;
+  width: 1200px;
+  height: 100px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.iframe {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.video {
+  background-color: #222; /* Iets lichtere achtergrond voor de blokken */
+  padding: 20px;
+  margin: 10px;
+  width: 600px;
+  height: 500px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+#voet {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: auto; /* Zorgt ervoor dat de footer onderaan blijft */
+  font-size: 16px;
+  width: 100%;
+}
+
+#voet a {
+  color: #f8b400;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#voet a:hover {
+  text-decoration: underline;
+}
+
+.footer-content {
+  max-width: 800px;
+  margin: auto;
+}
+
+.social-icons a {
+  color: white; /* Witte kleur */
+  font-size: 24px; /* Grotere iconen */
+  margin: 0 10px; /* Ruimte tussen iconen */
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #f8b400; /* Gele kleur bij hover */
+}
+
